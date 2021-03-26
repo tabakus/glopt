@@ -18,9 +18,10 @@
         }
     }
     &__menu {
-        width: 600px;
-        margin: 0 35px 0 0;
+        width: 565px;
+        margin: 0;
         display: flex;
+        justify-content: center;
         list-style-type: none;
     }
     &__menu-item {
