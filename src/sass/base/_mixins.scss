@@ -1,0 +1,12 @@
+@mixin divider {
+    &:before {
+        content: '';
+        position: absolute;
+        top: 48px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 148px;
+        height: 1px;
+        background-color: $main-color;
+    }
+}

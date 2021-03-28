@@ -2,6 +2,7 @@
 @import 'libs/fonts';
 
 @import 'base/variables';
+@import 'base/mixins';
 
 * {
     font-family: 'Roboto', sans-serif;
@@ -23,3 +24,5 @@
 
 @import 'blocks/promo';
 @import 'blocks/btn';
+@import 'blocks/benefits';
+@import 'blocks/title';
