@@ -1,0 +1,38 @@
+.work {
+    height: 580px;
+    &__subtitle {
+        margin: 0;
+        margin-top: 38px;
+        font-size: 21px;
+        line-height: 27px;
+        font-weight: 300;
+        color: #2e2e2e;
+        text-align: center;
+    }
+    &__items {
+        margin-top: 37px;
+        display: grid;
+        grid-template-columns: repeat(3, 360px);
+        column-gap: 30px;
+    }
+    &__item {
+        img {
+            width: 100%;
+        }
+        &-title {
+            margin-top: 28px;
+            font-size: 18px;
+            line-height: 22px;
+            font-weight: 700;
+            color: $main-color;
+            text-align: center;
+        }
+        &-descr {
+            margin-top: 16px;
+            font-size: 14px;
+            font-weight: 300;
+            color: #3a3a3a;
+            text-align: center;
+        }
+    }
+}

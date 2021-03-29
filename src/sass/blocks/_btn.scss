@@ -10,4 +10,7 @@
     text-align: center;
     color: #ffffff;
     text-transform: uppercase;
+    &:hover {
+        background-image: linear-gradient(to top, $main_color, #ec444b);
+    }
 }
