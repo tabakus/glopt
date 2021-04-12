@@ -228,7 +228,134 @@
 }
 
 @media (max-width: 767px) {
-
+    .container {
+        width: 557px;
+    }
+    .promo {
+        height: 650px;
+        &__logo {
+            flex: 0 0 80px;
+        }
+        &__menu-item {
+            padding: 0 10px 0 10px;
+        }
+        &__title {
+            font-size: 16px;
+        }
+        &__descr {
+            margin-top: 10px;
+            font-size: 33px;
+            span {
+                font-size: 18px;
+            }
+        }
+        &__divider {
+            width: 530px;
+            margin-top: 20px;
+        }
+        &__line {
+            width: 250px;
+        }
+        &__items {
+            margin-top: 15px;
+            grid-template-columns: repeat(2,270px);
+            grid-template-rows: repeat(2,1fr);
+            column-gap: 17px;
+            row-gap: 17px;
+        }
+        .btn_calc {
+            margin-top: 10px;
+        }
+    }
+    .benefits {
+        height: 775px;
+        &__items {
+            grid-template-columns: 557px;
+        }
+    }
+    .work {
+        height: 1370px;
+        &__subtitle {
+            font-size: 13px;
+        }
+        &__items {
+            padding: 0 53.5px;
+            grid-template-columns: 450px;
+            row-gap: 25px;
+        }
+        &__item-title {
+            margin-top: 15px;
+        }
+    }
+    .agent {
+        &__text {
+            margin-top: 15px;
+            padding: 0 30px;
+        }
+    }
+    .prices {
+        height: 840px;
+        &__items {
+            grid-template-columns: repeat(2,270px);
+            grid-template-rows: repeat(2,1fr);
+            column-gap: 17px;
+            row-gap: 17px;
+        }
+    }
+    .cons {
+        &__input {
+            width: 177px;
+            padding: 6px 20px;
+        }
+    }
+    .mng {
+        &__text {
+            font-size: 13px;
+        }
+    }
+    .scheme {
+        height: 560px;
+    }
+    .questions {
+        &__body {
+            width: 557px;
+        }
+        &__form {
+            margin: 10px 5px 0 5px;
+            grid-template: 45px 71px / repeat(3,176px);
+        }
+        &__input {
+            width: 176px;
+            height: 40px;
+        }
+    }
+    .footer {
+        height: 550px;
+        &__logo {
+            margin-right: 15px;
+            flex: 0 0 60px;
+        }
+        &__text {
+            font-size: 11px;
+        }
+        &__wrapper {
+            margin-right: 10px;
+        }
+        &__contacts {
+            line-height: 1;
+            p {
+                font-size: 11px;
+            }
+            a {
+                font-size: 11px;
+            }
+        }
+        .btn {
+            width: 90px;
+            height: 25px;
+            font-size: 12px;
+        }
+    }
 }
 
 @media (max-width: 576px) {
